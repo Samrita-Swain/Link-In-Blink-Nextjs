@@ -1,3 +1,4 @@
+import 'aos/dist/aos.css'; 
 import Hero from '@/Components/Hero';
 import Hotel from '@/Components/Hotel';
 import Event from '@/Components/Event';
@@ -7,7 +8,7 @@ import React, { useEffect, useState } from 'react'
 import Testimonial from '@/Components/Testimonial';
 import Footer from '@/Components/Footer';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+
 
 const Home = () => {
 
